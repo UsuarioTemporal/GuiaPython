@@ -28,6 +28,10 @@ En el caso de java es muy interesante ya que primero se compilara dependiendo de
 Entonces los lenguajes compilados necesitan de un programa o en linux el mismo sistema lo compila pero en window se necesita en el caso del c++ gcc , en el caso de java el jdk compilara a algo llamado bitcode que es un formato en hexadecial (**del 1 - 9 y a - f**) 
 para poder compilar los lenguajes y ser entendidos por la computadora
 
+En el caso de los lenguajes interpretados necesitan de un programa que traduzca directamente el codigo fuente, lo bueno de estos tipos de lenguajes es que al tiempo
+de ser escritos las instruccuiones el lenguaje analiza y compila al mismo tiempo, aunque suelen ser mas lentos que un compilador ya que el interprete esta analizando en cada momento todas las lineas de codigo 
+
+> **Los ejemplos se veran en este hermoso repositorio** 
 
 ## **Configuración para windows**
 
