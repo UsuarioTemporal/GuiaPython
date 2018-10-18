@@ -1,4 +1,5 @@
 # **Repaso Python**
+![Python](/img/logo.png)
 ```python
     # fue creado por Guido Van Rossum a comienzos de los 90 
 ```
