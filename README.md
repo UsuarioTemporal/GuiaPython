@@ -18,13 +18,15 @@ La palabra compilacion quiere decir que convierte tu codigo fuente a binario o l
 ```
 En el caso de java es muy interesante ya que primero se compilara dependiendo de S.O y luego gracias a la maquina virtual del java JVM o JRE se interpretara
 
-````java
+```java
     public class Java{
         public static void main(String[] args) {
             System.out.println("Esto se compilará a bitcode y luego lo interpretara el JRE");
         }
     }
 ```
+
+
 
 ## **Configuración para windows**
 
