@@ -31,9 +31,14 @@ para poder compilar los lenguajes y ser entendidos por la computadora
 En el caso de los lenguajes interpretados necesitan de un programa que traduzca directamente el codigo fuente, lo bueno de estos tipos de lenguajes es que al tiempo
 de ser escritos las instruccuiones el lenguaje analiza y compila al mismo tiempo, aunque suelen ser mas lentos que un compilador ya que el interprete esta analizando en cada momento todas las lineas de codigo 
 
+
+
 > **Los ejemplos se veran en este hermoso repositorio** 
 
-## **Configuración para windows**
+### **Curiosidades**
+A diferencia de otros lenguajes este no necesita colocarle el tipo de valor que sera la variable por que lo que se convierte un lenguaje **dinamicamente tipado** y esto hay que tratarlo con pinzas para algunos casos en particular que se veran el repositorio mas adelante
+
+### **Configuración para windows**
 
 
 
