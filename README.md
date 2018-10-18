@@ -11,3 +11,8 @@ Es un lenguaje intepretado esto quiere decir que requiere de un interprete denom
 
 
 Para mas referencias visite [AQUÍ](https://github.com/pystudent1913/ClasePiloto-Python/tree/master/01_tipos_de_datos_en_python)
+
+```python
+    # Autor : Thom Maurick Roman Aguilar
+    # Estudiante de la carrera Ingeniería de Sistemas
+```
