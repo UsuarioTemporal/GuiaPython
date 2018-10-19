@@ -10,7 +10,13 @@ def fibonacci(numeroTerminos):
 
 def f(numeroTerminos):
         pre,post=0,1
-        while(pre<numeroTerminos):
+        # menor que un numero de terminos
+        while(pre<=numeroTerminos):
+                print(pre,end=" ")
+                pre,post=post,pre+post
+        print()
+        # hasta un cierto numero de terminos 
+        for i in range(numeroTerminos):
                 print(pre,end=" ")
                 pre,post=post,pre+post
 
