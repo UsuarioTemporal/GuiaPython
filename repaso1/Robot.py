@@ -1,7 +1,7 @@
 # vida --> 100 --> vivo 0
 # revivir ,dar comer, pegar -->-10
 
-def nacimento ():
+def nacimento():
     global vida
     vida = 100
 def matar():

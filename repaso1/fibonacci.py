@@ -8,6 +8,12 @@ def fibonacci(numeroTerminos):
         pre=post
         post=suma
 
+def f(numeroTerminos):
+        pre,post=0,1
+        while(pre<numeroTerminos):
+                print(pre,end=" ")
+                pre,post=post,pre+post
 
 numeroTerminos = int(input("Ingrese el número de terminos"))
-fibonacci(numeroTerminos)
+# fibonacci(numeroTerminos)
+f(numeroTerminos)
