@@ -3,7 +3,7 @@ def fibonacci(numeroTerminos):
     pre = 0
     post = 1
     for i in range(numeroTerminos):
-        print(pre)
+        print(pre,end=" ")
         suma=pre+post
         pre=post
         post=suma
