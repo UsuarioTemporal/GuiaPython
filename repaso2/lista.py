@@ -21,3 +21,27 @@ print(lista[:3])
 print(lista)
 lista.insert(2,23)
 print(lista) #empura el dato hacia adelante 
+
+# Para concatenar listas
+lista.extend(["Sandra","Ana",18,15])
+print(lista)
+
+
+#Para devolver el indice
+print(lista.index("Sandra"))
+print(lista.index(15)) #encuentra el mas cercano
+
+
+# Comprobar si un elemento se encuentra o no se encuetra
+#  en una lista
+print("Analisando sie stan o no estan en la lista")
+print("Ana" in lista)
+print("Thom" in lista)
+print(15 in lista)
+print(("Ana" or 15) in lista)
+
+print((15 and "thom") in lista)
+
+print((11 or 12 ) in lista)
+
+
