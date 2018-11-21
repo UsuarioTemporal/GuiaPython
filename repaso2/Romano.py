@@ -1,8 +1,9 @@
 def convertir(lista) : 
-    print()
-
-
-
+    # print()
+    Lista = list()
+    Lista = lista
+    for item in reversed(Lista): 
+        print(item,end=" ")
 
 
 lista = list(input("Ingrese un numero : "))
