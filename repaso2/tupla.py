@@ -13,6 +13,12 @@
      * pueden utilizarse como claves en un diccionario (las listas no)
 """
 tupla = ("Hola",12,"como estas")
+# tambien tupla = 15 ," sdasd" ,34 -- se conoce como empaquetado de tupla
+#  desempaquetando tuplas 
+hola = "hola"
+numero = 12
+tuplaEmpaquetada = hola,numero #empaquetando
+hola,numero=tuplaEmpaquetada  #desempaquetando
 tupla2 = ("Hola",12,"como estas")
 # print(type(tupla))
 print("Hola" in tupla)
