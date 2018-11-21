@@ -8,7 +8,7 @@ print("La suma es  ",sumar(int(numero1),int(numero2)))
 
 # Tipos de datos 
 
-# Division 
+# Divison 
 
 # Resultado decimal
 print(8/5)
