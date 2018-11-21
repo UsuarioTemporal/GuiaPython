@@ -19,4 +19,5 @@ print(lista[:3])
     fuera de su lista lo apila al final
 """
 print(lista)
-print(lista[5])
+lista.insert(2,23)
+print(lista) #empura el dato hacia adelante 
