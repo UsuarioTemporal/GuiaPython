@@ -3,7 +3,6 @@
      * despues de su creacion .
      * no permiten añadir , eliminar, mover elementos etc (no append, remove)
      * si permiten extraer porciones, pero el resultado de la extraccion es un nueva tupla
-     * no permiten busquedas , no index
      * si permiten comprobar si un elemento se encuentra en la tupla
 
      ¿ Qué utilidad o ventaja tienen respecto a las listas ? 
