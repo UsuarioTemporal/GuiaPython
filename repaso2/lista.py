@@ -9,3 +9,14 @@ print(lista[:])
 print(lista[0:2])
 print(lista[0:])
 print(lista[:3])
+
+# lista.insert(8,23) lo curioso de esto es que es:
+"""
+    lo cursioso es que detecta la cantidad de datos
+    y lo apila uno al lado de otro pero si insertamos 
+    en el medio de una lista de una lista si existente
+    lo añade , pero si lo colamos en un rango
+    fuera de su lista lo apila al final
+"""
+print(lista)
+print(lista[5])
