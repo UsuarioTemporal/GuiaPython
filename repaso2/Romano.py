@@ -1,10 +1,5 @@
-def convertidor(expresion):
-    j = 0
-    cadena = ""
-    for i in  expresion : 
-        if j ==0 :
-            ##
-        elif j
+def convertir(lista) :
+    print()
 
-expresion = list(input("Ingrese el numero a convertir "))
-convertidor(expresion)
+lista = []
+lista=input("Ingresa el número a convertir :  ")
