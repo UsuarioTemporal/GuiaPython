@@ -13,8 +13,20 @@
      * pueden utilizarse como claves en un diccionario (las listas no)
 """
 tupla = ("Hola",12,"como estas")
+tupla2 = ("Hola",12,"como estas")
 # print(type(tupla))
 print("Hola" in tupla)
 print(tupla)
 print(tupla[2])
 print(tupla.index(12))
+tupla3 =tupla +tupla2
+print(tupla3)
+
+
+#  Conversion para convertir una tupla a una lista y viseversa
+lista = list(tupla3)
+lista.append("que pex")
+print(lista)
+
+tupla4 =tuple(lista)
+print(tupla4)
