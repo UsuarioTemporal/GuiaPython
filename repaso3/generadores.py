@@ -43,6 +43,14 @@ def generarNumero(terminos) :
 # Debo almacenarlo n un objeto iterable
 ObjetoIterable = generarNumero(10)
 
-for item in ObjetoIterable : 
-    print(item)
+# for item in ObjetoIterable : 
+#     print(item)
+
+
+
+# si quiero imprimir los tres primeros elementos de mi objeto itereable
+
+print(next(ObjetoIterable))
+print(next(ObjetoIterable))
+print(next(ObjetoIterable))
 
