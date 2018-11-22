@@ -18,3 +18,4 @@ def contarSoloCaracteres (cadena) :
 
 palabra = input("Ingrese una palabra : ")
 print(f"La cantidad de caracteres originales de la cadena es : {contarSoloCaracteres(palabra)}")
+
