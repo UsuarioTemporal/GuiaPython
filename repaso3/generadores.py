@@ -4,7 +4,7 @@
     (que se pueden recoger)
 """
 
-import random
+import random 
 
 def generarListaconPares(terminos) : 
     lista = []
