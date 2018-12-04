@@ -19,7 +19,7 @@ def suma() :
 print(sum(suma()))
 
 
-# CONSEJO : 
+# CONSEJO NO RECOMENDADO: 
 # Para lo expresar las comillas simples o dobles , cuando queremos colocar textos , oraciones y similares
 # es preferible usar comillas dobles , pero para aquellos item que juegan un rol de identificador o key en 
 # un diccionario es preferible usar las comillas simples
