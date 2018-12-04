@@ -10,5 +10,5 @@
     Además también podemos acelerar búsquedas y crear bucles mas rápidos .  
 
 """
-
-# Construsyendo 
+# Referencias https://wiki.python.org/moin/Generators
+# Construyendo 

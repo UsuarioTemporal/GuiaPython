@@ -10,7 +10,7 @@ sustantivo4=["historia","aventura","relacion","miraba"]
 verbo3=["comenzaba","iniciaba","terminaba","explotaba","renacia"]
 
 
-print("Se {} en {},cuando el {} la {} y entonces una {} {} {}".format(
+print('Se {} en {},cuando el {} la {} y entonces una {} {} {}'.format(
     verbo1[random.randint(0,4)],
     sustantivo1[random.randint(0,4)],
     sustantivo2[random.randint(0,4)],
