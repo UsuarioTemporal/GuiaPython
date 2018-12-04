@@ -9,6 +9,14 @@ class PrimerosN(object) :
     #retornara el sigueinte 
     def __next__(self) : 
         return self.next()
-    def next(self) : 
+    def next(self) :
         if self.numero < self.terminos :
-            pass
+            cur,self.numero = self.numero,self.numero+1
+            return cur
+        else :
+            raise StopIteration()
+
+
+suma = sum(PrimerosN(10))
+
+print (suma)
