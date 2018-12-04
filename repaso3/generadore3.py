@@ -44,7 +44,7 @@ def factorial(terminos) :
         terminos -=1
 
 
-SegundoObjetoIterable = factorial(5)
+SegundoObjetoIterable = factorial(5) # puedo agregar esto en una pila
 
 for numeros in SegundoObjetoIterable :
     print(numeros)
