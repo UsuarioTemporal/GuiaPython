@@ -27,6 +27,25 @@ ObjetoGenerador = (letra * numero
                         for numero in listaNumeros 
                             if numero> 0)
 print(lista)
+
+for letra in ObjetoGenerador :
+    print(letra)
+"""
 print(next(ObjetoGenerador))
 print(next(ObjetoGenerador))
-print(next(ObjetoGenerador))
+print(next(ObjetoGenerador)) """
+
+
+def factorial(terminos) : 
+    i = 1 
+    while terminos > 1 :
+        i *= terminos 
+        yield i 
+        terminos -=1
+
+
+SegundoObjetoIterable = factorial(5)
+
+for numeros in SegundoObjetoIterable :
+    print(numeros)
+    
