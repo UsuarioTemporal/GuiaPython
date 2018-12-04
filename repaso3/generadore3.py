@@ -15,3 +15,7 @@
 
 # los generadores nos devolveran items de uno en uno en los cuales nosotros los programadores
 # tendremos que iterar
+listaNumeros = [1,2,3,4,5]
+listaString = ['h','o','l','a']
+lista = [c * num for c in listaString for num in listaNumeros if num> 0]
+print(lista)
