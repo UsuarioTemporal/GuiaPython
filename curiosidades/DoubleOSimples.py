@@ -7,7 +7,7 @@ import this
 #          http://www.recursospython.com/pep8es.pdf
 
 
-# Según la documentacion , para aquellos modulos que expresan ua funcion deben ser declarados por 
+# EXTRA : Según la documentacion , para aquellos modulos que expresan ua funcion deben ser declarados por 
 # comillas triples
 
 def suma() : 
@@ -17,3 +17,13 @@ def suma() :
 
 """Sumando los valores de la tupla"""
 print(sum(suma()))
+
+
+# CONSEJO : 
+# Para lo expresar las comillas simples o dobles , cuando queremos colocar textos , oraciones y similares
+# es preferible usar comillas dobles , pero para aquellos item que juegan un rol de identificador o key en 
+# un diccionario es preferible usar las comillas simples
+
+cadena = "Recursos de python"
+dicconario = {'item 1':1}
+
