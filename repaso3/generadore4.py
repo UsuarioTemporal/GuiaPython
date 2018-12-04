@@ -11,7 +11,7 @@ class PrimerosN(object) :
         return self.next()
     def next(self) :
         if self.numero < self.terminos :
-            cur,self.numero = self.numero,self.numero+1
+            cur,self.numero = self.numero+1,self.numero+1
             return cur
         else :
             raise StopIteration()
