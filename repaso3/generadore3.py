@@ -11,4 +11,7 @@
 
 """
 # Referencias https://wiki.python.org/moin/Generators
-# Construyendo 
+
+
+# los generadores nos devolveran items de uno en uno en los cuales nosotros los programadores
+# tendremos que iterar
