@@ -1,3 +1,4 @@
+import this
 # He tenido problemas con el interprete al usar comillas dobles y aveces 
 # problemas al usar problemas simples 
 
