@@ -17,6 +17,8 @@ class PrimerosN(object) :
             raise StopIteration()
 
 
-suma = sum(PrimerosN(10))
+# suma = sum(PrimerosN(10))
+# print (suma)
+for itemClass in PrimerosN(10) :
+    print(itemClass)
 
-print (suma)
