@@ -26,3 +26,16 @@ en la escritura del código"""
 
 # USO DE LOS TABS PARA LA IDENTACIÓN , NO ESPACION
 # MODIFICANDO TU EDITOR A LA IDENTACION CON 4 ESPACION , MAS NO 8 COMO VIENE POR DEFECTO EN OTROS IDE O EDITORES
+def funcion1() : 
+    return 3;# identacion con 4 espacios
+def funcion2() : 
+        return 4; #identacion por defecto 
+
+def funcion3(request,http,#....
+            var_integer) : # saltos para mejor entendimiento
+    return request ; 
+
+
+# Ya me dio weba resumir >:v , si quieres aprender , leelo no seas vago http://www.recursospython.com/pep8es.pdf
+# ta lo lei pero no te hare ña p$# tarea asi que hazlo tu >:v xdxd , si encuentro algo interesante en mi camino como programador estaré
+# comitiando lo que aprenda
