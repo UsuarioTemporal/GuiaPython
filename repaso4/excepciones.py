@@ -28,5 +28,7 @@ while True :
 
 
 def funcionException() : 
-    raise BaseException("Uan excepcion")
+    raise BaseException("Una excepcion")
 
+
+funcionException()
