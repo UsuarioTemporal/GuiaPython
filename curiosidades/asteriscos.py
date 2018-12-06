@@ -6,7 +6,11 @@ def imprime(var1,var2,var3) :
     print(var2)
     print(var3)
 
-lista = [1,2,3]
+lista = [1,2,3,3]
 # el asterisco permite recibir multiples argumentos usando una lista , tupla o diccionario
-
-imprime(*lista)
+# tener cuidado con numero de elementos de mi estructura , debe concordar con el numero de 
+# elementos que tiene mi funcion en el parametro
+try :
+    imprime(*lista)
+except TypeError :
+    print("funcion super llena , falta de variables")
