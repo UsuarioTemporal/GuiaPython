@@ -27,3 +27,6 @@ while True :
         print("Valor erroneo")
 
 
+def funcionException() : 
+    raise BaseException("Uan excepcion")
+

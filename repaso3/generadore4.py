@@ -14,7 +14,7 @@ class PrimerosN(object) :
             cur,self.numero = self.numero+1,self.numero+1
             return cur
         else :
-            raise StopIteration()
+            raise StopIteration() #lanzando un tipo de exception
 
 
 # suma = sum(PrimerosN(10))
