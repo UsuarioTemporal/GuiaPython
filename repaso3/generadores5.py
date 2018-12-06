@@ -1,5 +1,6 @@
 lista = [2 * num for num in range(10)] 
-Objeto = (2 * num for num in range(10))
+Objeto = (2 * num 
+            for num in range(10))
 
 #  Quizá en este ejemplo no veas la diferencia 
 # print('Lista')
