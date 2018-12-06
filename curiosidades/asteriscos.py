@@ -1,6 +1,6 @@
 # Existe dos tipos importantes al programar en python los asteriscos dobles y los asteriscos simples
 # estos se utilizan en los parametros de las funciones y tambien en los argumentos de las funciones
-
+# fuente : https://code.i-harness.com/es/q/9025
 def imprime(var1,var2,var3) : 
     print(var1)
     print(var2)
