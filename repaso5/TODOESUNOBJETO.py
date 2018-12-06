@@ -1,3 +1,5 @@
+# Todo es un objeto hasta la misma clase que crees es un objeto , entonces instancias un objeto 
+# por mas raro que suene , INSTANCIAR UN OBJETO 
 class Objeto() : 
     pass
 class OtroObjeto :
