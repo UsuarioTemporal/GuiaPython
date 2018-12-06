@@ -9,3 +9,4 @@ try :
     print(calculaRaiz(-1))
 except BaseException as Err :
     print("Capturando exception de tipo ",Err.__class__)
+
