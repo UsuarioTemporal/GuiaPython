@@ -17,3 +17,5 @@ en la escritura del código"""
 
 # Razones por la cual romper las reglas de la consistencia en python u otro lenguaje
 
+# Cuando el código se haga muy tecnico abarcando los lenguajes sencillos de leer 
+# Cuando se trata de hacer eficiente el codigo , en ocaciones de rompe la consistencia
