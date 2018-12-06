@@ -27,3 +27,9 @@ print(sum(suma()))
 cadena = "Recursos de python"
 dicconario = {'item 1':1}
 
+
+
+# CONSEJO RECOMENDADO
+
+# Usar las comillas dobles o simples para todo el codigo del proyecto donde necesitemos
+# cadenas de string
