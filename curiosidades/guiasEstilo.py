@@ -19,3 +19,10 @@ en la escritura del código"""
 
 # Cuando el código se haga muy tecnico abarcando los lenguajes sencillos de leer 
 # Cuando se trata de hacer eficiente el codigo , en ocaciones de rompe la consistencia
+
+
+
+# DISEÑO
+
+# USO DE LOS TABS PARA LA IDENTACIÓN , NO ESPACION
+# MODIFICANDO TU EDITOR A LA IDENTACION CON 4 ESPACION , MAS NO 8 COMO VIENE POR DEFECTO EN OTROS IDE O EDITORES
