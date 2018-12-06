@@ -18,3 +18,12 @@ except BaseException as Err:
     print("Error de tipo ",Err.__class__)
     
 
+while True : 
+    try :
+        op1 = int(input("Ingrese un primer numero "))
+        op2 = int(input("Ingrese un segundo numero "))
+        break
+    except ValueError :
+        print("Valor erroneo")
+
+
