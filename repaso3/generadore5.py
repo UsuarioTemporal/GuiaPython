@@ -28,3 +28,33 @@ for subLista in array :
     for item in subLista : 
         print(item,end=" ")
     print()
+
+
+# Usando generadores para simplificar los bucles anidados
+def ciudades(*ciudades) : # Cuando se coloca un asterisco dentro de un argunmento esto significa 
+                          # que puede recibir un numero indeterminado de elementos y que lo recibira en 
+                          # forma de tupla
+    for item in ciudades :
+         yield item
+
+
+ObjetoGeneradorCuidades = ciudades("Lima","Callao","Lurin","Villa el salvador")
+
+print(next(ObjetoGeneradorCuidades))
+print(next(ObjetoGeneradorCuidades))
+print(next(ObjetoGeneradorCuidades))
+
+
+# Uso del yield from
+def paises(*paises) : 
+    for item in  paises : 
+        yield from item
+
+ObjetogeneradorPaises = paises("Peru","Argentina","Bolivia")
+
+print(next(ObjetogeneradorPaises))
+print(next(ObjetogeneradorPaises))
+print(next(ObjetogeneradorPaises))
+print(next(ObjetogeneradorPaises))
+print(next(ObjetogeneradorPaises))
+print(next(ObjetogeneradorPaises))
