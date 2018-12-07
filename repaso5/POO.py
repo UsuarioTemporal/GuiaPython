@@ -5,7 +5,7 @@ class Auto() :
         self.__ruedas = 4
         self.__enMarcha=False
 
-    def __checheoInterno(self) : 
+    def __checheoInterno(self) : # metodo privado
         return False
     def arrancar(self,marchando): # el self hace referencia al propio objeto perteneciente 
                         #a la clase , con compraciones con otros lenguajes el self es igual
