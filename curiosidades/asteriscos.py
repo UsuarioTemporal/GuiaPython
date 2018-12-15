@@ -31,3 +31,10 @@ def datos(*args):
     print(len(args[0]))
 
 datos(lista)
+
+def datosDiccionarios(**kwargs):
+    print(kwargs)
+
+datosDiccionarios(**diccionario)
+
+
