@@ -19,3 +19,8 @@ print(string[0:7:2])
 #newString = string.replace('c',''x')
 #newString=string.split(' ') esto separa la cadenas en blokes respecto a los espacios
 # y esto retornara una lista
+
+# creamos un archivo txt (texto.txt) esta en esta misma carpeta
+archivo = open("repaso2/texto.txt","r")
+texto =archivo.read().split(" ")
+print(texto)
