@@ -1,6 +1,10 @@
-string = '0123456'
+string = '123456'
 print(string[0])
 print(len(string))
 print(string[-1])
 print(string[: -5])
 print(string[-5:])
+print(string[-6])
+print(string[-1::-5])
+print(string[::-1])
+print(string[-6::])
