@@ -13,4 +13,8 @@ def decorador(func):
 def saluda():
     print("Hola")
 
+@decorador
+def suma():
+    print(10+20)
 saluda()
+suma()
