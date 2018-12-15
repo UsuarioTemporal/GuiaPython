@@ -11,8 +11,15 @@ suma(7,2)
 
 #######################################
 def decorator(func):
+    def beforeAction():
+        print("Antes de ejecutar")
+    def afterAction():
+        print("Despues de ejecutar")
+    beforeAction()
     def newFunction(*args):
-        return func(*args)
+        re = func(*args);
+        afterAction()
+        return re
     return newFunction
 
 @decorator
