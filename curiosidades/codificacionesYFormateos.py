@@ -8,3 +8,4 @@ string = "Texto"
 numero= 2
 print("Soy un texto %s y un numero %d " %(string,numero),False)
 print("Hola soy un numero {}".format(numero))
+print(f"Soy un texot {string}")
