@@ -24,3 +24,5 @@ print(string[0:7:2])
 archivo = open("repaso2/texto.txt","r")
 texto =archivo.read().split(" ")
 print(texto)
+# list comprehension
+
