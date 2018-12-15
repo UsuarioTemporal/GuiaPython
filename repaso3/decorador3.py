@@ -17,4 +17,6 @@ def decorator(isValid=True) :
 def suma(numero1=0,numero2=0):
     return numero1+numero2
 
+print(suma(1))
 print(suma())
+print(suma(11,3))
