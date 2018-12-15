@@ -42,7 +42,6 @@ A diferencia de otros lenguajes este no necesita colocarle el tipo de valor que 
 ### **Configuración para windows**
 
 
-
 Para mas referencias visite [AQUÍ](https://github.com/pystudent1913/ClasePiloto-Python/tree/master/01_tipos_de_datos_en_python)
 
 ```python
