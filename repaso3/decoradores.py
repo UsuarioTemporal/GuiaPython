@@ -7,3 +7,5 @@ def decorador(func):
 
 def saluda():
     print("Hola")
+    
+decorador(saluda())
