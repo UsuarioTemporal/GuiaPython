@@ -25,4 +25,7 @@ archivo = open("repaso2/texto.txt","r")
 texto =archivo.read().split(" ")
 print(texto)
 # list comprehension
-
+x = [item.replace('o','0') for item in texto ]
+print(x)
+y= '--'.join(x)
+print(y,'este tipo es {}'.format(type(y)))
