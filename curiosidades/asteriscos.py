@@ -55,3 +55,7 @@ funcionCompleta(*lista,*diccionario) # las llaves de los diccionarios se agregar
 print("\nCuarta opcion")
 funcionCompleta(lista,*diccionario) # las llaves de los diccionarios se agregaran a la tupla
 funcionCompleta(lista,diccionario) # el diccionario se agregara a la tupla
+
+# Por convencion a los parametros con * se nombre args y **kwargs
+# *args permite cualquier cantidad de argumentos posicionales opcionales
+# **kwargs permite cualquier numero de argumetos de palabras claves opcionales 
