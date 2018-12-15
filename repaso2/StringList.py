@@ -29,3 +29,7 @@ x = [item.replace('o','0') for item in texto ]
 print(x)
 y= '--'.join(x)
 print(y,'este tipo es {}'.format(type(y)))
+
+# guardan datos en el txt
+with open("repaso2/texto.txt","wt") as salida : 
+    salida.write(y)
