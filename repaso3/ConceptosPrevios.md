@@ -30,11 +30,23 @@ Como se podra observar en la salida de los datos es consecutiva pero no recorre 
 ```python
     #!/usr/bin/env python3
 
-    def generador() :
-        pass
-    def normal():
-        pass
 
+    #Funcion infinita y funcion generadoraa
+    def generador() :
+        i = 1
+        while True : 
+            yield i*i
+            i+=1
+    def normal():
+        i = 1
+        while True : 
+            i+=1
+            print(i*i)
+    
+    for item in generador() :
+        if item > 100 :
+            break;
+        print(item)
 ```
 
 ## **Decoradores**
