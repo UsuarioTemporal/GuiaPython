@@ -83,7 +83,8 @@ Aumenta el rendimiento de una petición , ya que alamcena los estados de la vari
 >Another important feature of generators is that the local variables and the execution start is automatically saved between calls. 
 
 ## **Decoradores**
-
+Los decoradores son funciones que reciben otras funciones sin alterar la funcion base 
+Estos decoradores suelen ser funciones , pero tambien puedn ser clases
 
 
 
