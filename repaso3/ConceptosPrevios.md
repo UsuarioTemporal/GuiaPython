@@ -7,7 +7,7 @@ Los datos enviados deben ser almacenados en un objeto iterable
 
 
 ```python
-    #!/bin/src/env python3
+    #!/usr/bin/env python3
     def generador() : 
         yield 1
         yield 2
@@ -23,7 +23,15 @@ Salida ( Ouput terminal ) :
 
 Como se podra observar en la salida de los datos es consecutiva pero no recorre denuevo ta la funcion si no que se acuerda donde envio el dato y continua cumpliendo las estricciones en donde se habia quedado . **MUY INTERESANTE NO CREES :3** 
 
+`return` devuelve un valor especificado a su interlocutor, mientras que el yield devuelve una iteracion de valores. Se deberia usar el `yield` cuando queremos iterar sobre una secuencia , pero no queremos alamacenar toda la secuencia en la memoria .
 
+**EJM**
+
+```python
+    #!/usr/bin/env python3
+
+
+```
 
 ## **Decoradores**
 
