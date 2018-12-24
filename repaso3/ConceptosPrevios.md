@@ -42,12 +42,26 @@ Como se podra observar en la salida de los datos es consecutiva pero no recorre 
         while True : 
             i+=1
             print(i*i)
-    
+
     for item in generador() :
         if item > 100 :
             break;
         print(item)
 ```
+````python
+    def generador(lista) : 
+        for item in lista :
+            if item % 2 ==0 :
+                yield i 
+    lista = [1,5,6,0,17,9]
+
+    for item in generador(lista) : 
+        print(item,end=" ")
+
+````
+
+#### Ventajas : 
+Aumenta el rendimiento de una petición 
 
 ## **Decoradores**
 
