@@ -7,6 +7,7 @@ Los datos enviados deben ser almacenados en un objeto iterable
 
 
 ```python
+    #!/bin/src/env python3
     def generador() : 
         yield 1
         yield 2
@@ -15,10 +16,13 @@ Los datos enviados deben ser almacenados en un objeto iterable
     for item in generador() : 
         print(item)
 ```
-Salida : 
+Salida ( Ouput terminal ) : 
 > 1 <br>
 > 2 <br>
 > 3
+
+Como se podra observar en la salida de los datos es consecutiva pero no recorre denuevo ta la funcion si no que se acuerda donde envio el dato y continua cumpliendo las estricciones en donde se habia quedado . **MUY INTERESANTE NO CREES :3** 
+
 
 
 ## **Decoradores**
