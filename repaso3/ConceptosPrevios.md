@@ -61,7 +61,24 @@ Como se podra observar en la salida de los datos es consecutiva pero no recorre 
 ````
 
 #### Ventajas : 
-Aumenta el rendimiento de una petición 
+Aumenta el rendimiento de una petición , ya que alamcena los estados de la variables con ambito locales (scope) , por lo tanto , se controla la sobrecarga de asignacion de memoria
+
+
+**Ultimo ejemplo, imaginemos que queremos buscar una palabra en un  cierta cadena**
+
+```python
+    def coincidencia(cadena) :
+    for sub in cadena :
+        if sub=="hola":
+            yield sub
+
+    count = 0
+    cadena = 'hola que hola si uno'
+    cadena=cadena.split() # convirtiendo a lista 
+    for item in coincidencia(cadena) :
+        count +=1 
+    print(count)
+```
 
 ## **Decoradores**
 
