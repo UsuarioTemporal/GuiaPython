@@ -39,13 +39,3 @@ Object = fibona()
 lista = [next(Object) for item in range(5)]
 print("\n")
 print(lista)
-# fibonacci generador recursivo
-def f(num) :
-    if num==1 or num==2 :
-        yield num-1
-    else :
-        yield f
-
-print("\n")
-for item in f(2) :
-    print(item,end=" ")
