@@ -30,20 +30,19 @@ class Moto(Vehiculo) : #la clase moto hereda de la clase vehiculo
 
 class VElectrico() :
     def __init__(self,cargado=False):
-        self.__autonomia = 100
         self.__cargado=cargado
     def estadoActual(self):
-        print(self.__autonomia+ " "+self.__cargado)
+        print(self.__cargado)
 
 
 class Bicicleta(Vehiculo,VElectrico): # Se da precencia a la primera clase que se hereda
     
-    def __init__(self, marca, modelo, llantas,cargado):
+    def __init__(self, marca, modelo, llantas,cargado=False):
         Vehiculo.__init__(self,marca, modelo, llantas)
         VElectrico.__init__(self,cargado)
     def estadoActual(self):
-        super().estadoActual()
-        VElectrico.estadoActual(self)
+        super(Vehiculo,Vehiculo.estadoActual(self))
+        super(VElectrico,VElectrico.estadoActual(self))
         
 
 miMoto =Moto("Honda","CBR",2)
@@ -52,6 +51,6 @@ miMoto.hacerCaballito()
 miMoto.estadoActual()
 
 
-print("Bici")
-miBicicleta = Bicicleta("Bici","Bici",2,True) 
+print("Aqui comienza herencia multiple Bici")
+miBicicleta = Bicicleta("Bici","Bici",2)
 miBicicleta.estadoActual()
