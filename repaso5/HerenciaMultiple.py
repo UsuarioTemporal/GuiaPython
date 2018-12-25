@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# nota metal en python , no existe variables privadas
 
 
 
@@ -24,5 +24,6 @@ thom =Email('112')
 # thom.getPassword='15'
 thom.password='45'
 print(thom.password)
-
+thom.__password='58'
 print(thom.__dict__)
+print(thom.password)
