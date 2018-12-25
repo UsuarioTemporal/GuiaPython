@@ -10,5 +10,5 @@
 
 
 """
-    EL objeto se adpatara al tipo de instancia
+    Polimorfismo : EL objeto se adpatara al tipo de instancia
 """
