@@ -28,6 +28,16 @@ class Moto(Vehiculo) : #la clase moto hereda de la clase vehiculo
         super().estadoActual()
         print(self.__caballito)
 
+class VElectrico() :
+    def __init__(self):
+        self.__autonomia = 100
+    def cargarEnergia(self) :
+        self.__cargado = True
+
+
+class Bicicleta(Vehiculo,VElectrico):
+    pass
+
 
 miMoto =Moto("Honda","CBR",2)
 miMoto.estadoActual()
