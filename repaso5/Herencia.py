@@ -42,7 +42,8 @@ class Bicicleta(Vehiculo,VElectrico): # Se da precencia a la primera clase que s
         Vehiculo.__init__(self,marca, modelo, llantas)
         VElectrico.__init__(self,cargado)
     def estadoActual(self):
-        Vehiculo.estadoActual(self)
+        # Vehiculo.estadoActual(self) #igual
+        super().estadoActual() # igual
         VElectrico.estadoActual(self)
         
 
