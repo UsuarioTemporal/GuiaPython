@@ -19,9 +19,18 @@ class Vehiculo() :
 
 
 class Moto(Vehiculo) : #la clase moto hereda de la clase vehiculo
-    def __init__(self, marca, modelo, llantas):
+    def __init__(self, marca, modelo, llantas,caballito=False):
        super().__init__(marca, modelo, llantas)
+       self.__caballito=caballito;
+    def hacerCaballito(self):
+        self.__caballito=True;
+    def estadoActual(self):
+        super().estadoActual()
+        print(self.__caballito)
+
 
 miMoto =Moto("Honda","CBR",2)
+miMoto.estadoActual()
+miMoto.hacerCaballito()
 miMoto.estadoActual()
 
