@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
 import time
 import datetime
 print('Tiempo sin formato')
@@ -32,7 +34,17 @@ ahora = datetime.datetime.now()
 print("Fecha total : ",ahora)
 print("Mes : ",ahora.month)
 print("Dia : ",ahora.day)
-print("Ano ",ahora.year)
+print("Año ",ahora.year)
 print("Hora ", ahora.hour)
 print("Minuto ",ahora.minute)
 print("Segundo ",ahora.second)
+print("Otro : ",ahora.today())
+
+print("Conversion de fechas")
+fecha="21/01/1991"
+fecha=datetime.datetime.strptime(fecha,"%d/%m/%Y")
+print(fecha)
+
+print("Alteracion de fechas ")
+fecha=fecha+datetime.timedelta(days=3) # weeks , years,days,months ,seconds
+print(fecha)
