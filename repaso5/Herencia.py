@@ -33,14 +33,21 @@ class VElectrico() :
         self.__autonomia = 100
     def cargarEnergia(self) :
         self.__cargado = True
+    def estadoActual(self):
+        print(self.__autonomia+ " "+self.__cargado)
 
 
-class Bicicleta(Vehiculo,VElectrico):
-    pass
-
+class Bicicleta(Vehiculo,VElectrico): # Se da precencia a la primera clase que se hereda
+    
+    def estadoActual(self):
+        super().estadoActual()
 
 miMoto =Moto("Honda","CBR",2)
 miMoto.estadoActual()
 miMoto.hacerCaballito()
 miMoto.estadoActual()
 
+
+print("Bici")
+miBicicleta = Bicicleta("Bici","Bici",2) 
+miBicicleta.estadoActual()
