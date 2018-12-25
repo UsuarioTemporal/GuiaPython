@@ -5,5 +5,5 @@
 """
 
 """
-    Este tema se ve con mucha mas profundidad en los decoradores, los ejemplos de decoradores estan en esta carpeta , revisar :3
+    Este tema se ve con mucha mas profundidad en los decoradores, los ejemplos de decoradores estan en la carpeta repaso3, revisen :3
 """
