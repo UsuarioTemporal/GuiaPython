@@ -6,6 +6,12 @@ import logging
     Por defecto python al igual que java tiene un hilo implicito que es el encargado de la ejecución , entonces
     el total es de hilos son 3 , entonces si queremos que ele hilo que ejcute se sincronize con los demas para los demas cumplan su funcion y luego al terminar cada uno , termine e hilo del main
 """
+
+
+""" 
+    testing python
+"""
+
 def consultar(id_persona):
     time.sleep(2)
     
