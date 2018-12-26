@@ -21,7 +21,7 @@ def consultar(id_persona):
     return 
 def guardar(id_persona,data):
     logging.info("CONSULTANDO PARA EL ID "+str(id_persona)+" data "+str(data))
-    time.sleep(5)
+    time.sleep(3)
     return 
 
 start=time.time()
