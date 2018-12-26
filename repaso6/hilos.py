@@ -11,6 +11,10 @@ import logging
 """ 
     testing python
 """
+logging.basicConfig(level=logging.DEBUG,format='[%(levelname)s] (%(ThreadName)-s) %(mesagge)s')
+
+
+
 
 def consultar(id_persona):
     time.sleep(2)
