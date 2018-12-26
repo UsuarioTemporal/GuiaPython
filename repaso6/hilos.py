@@ -11,18 +11,18 @@ import logging
 """ 
     testing python
 """
-logging.basicConfig(level=logging.INFO,format='[%(levelname)s] (%(ThreadName)-s) %(mesagge)s')
+logging.basicConfig(level=logging.INFO,format='[%(levelname)s] (%(threadName)-s) %(message)s')
 # logging.INFO 
 # logging.WARN
 
 def consultar(id_persona):
-    logging.info("CONSULTANDO PARA EL ID ",id_persona)
+    logging.info("CONSULTANDO PARA EL ID "+str(id_persona))
     time.sleep(2)
-    
+    return 
 def guardar(id_persona,data):
-    logging.info("CONSULTANDO PARA EL ID ",id_persona," data ",data)
+    logging.info("CONSULTANDO PARA EL ID "+str(id_persona)+" data "+str(data))
     time.sleep(5)
-
+    return 
 
 start=time.time()
 t1 = threading.Thread(name="hilo_1",target=consultar,args=(1, ))
