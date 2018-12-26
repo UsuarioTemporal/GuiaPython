@@ -1,4 +1,4 @@
-from Estudiante import Estudiante
+from Estudiante import *
 
 thom=Estudiante('Thom',10,True)
 print(thom.nombre)
