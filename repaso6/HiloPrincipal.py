@@ -12,4 +12,5 @@ hilo2.start()
 hilo2.join()
 end=time.time()
 
+
 print("El tiempo transcurrido es {}".format(end-start))
