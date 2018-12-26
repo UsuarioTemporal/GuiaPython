@@ -11,15 +11,16 @@ import logging
 """ 
     testing python
 """
-logging.basicConfig(level=logging.DEBUG,format='[%(levelname)s] (%(ThreadName)-s) %(mesagge)s')
-
-
-
+logging.basicConfig(level=logging.INFO,format='[%(levelname)s] (%(ThreadName)-s) %(mesagge)s')
+# logging.INFO 
+# logging.WARN
 
 def consultar(id_persona):
+    logging.info("CONSULTANDO PARA EL ID ",id_persona)
     time.sleep(2)
     
 def guardar(id_persona,data):
+    logging.info("CONSULTANDO PARA EL ID ",id_persona," data ",data)
     time.sleep(5)
 
 
