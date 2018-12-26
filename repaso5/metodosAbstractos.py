@@ -13,7 +13,7 @@ class Rectangulo(Figura):
     def __init__(self,ancho,altura):
         self.__ancho=ancho
         self.__altura=altura
-        super(Rectangulo,self).__init__()
+        super().__init__()
 
     def area(self):
         return self.__altura*self.__ancho
