@@ -14,6 +14,6 @@ class Hilo2(Thread) :
         self.__guardar(self.__idPersona,self.__data)
     
     def __guardar(self,idPersona,data):
-        logging.info("Guardando para el id "+str(idPersona)+" la data "+str(data))
+        logging.debug("Guardando para el id "+str(idPersona)+" la data "+str(data))
         time.sleep(3)
         return 
