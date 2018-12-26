@@ -7,3 +7,5 @@ class Persona():
     @nombre.setter
     def nombre(self,value):
         self.__nombre=value
+    def mostrarDatos(self):
+        print(self._-nombre)
