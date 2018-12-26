@@ -20,6 +20,11 @@ t2 = threading.Thread(name="hilo_2",target=guardar,args=(1, "Thom"))
 t1.start() #comenzando el hilo 1 
 t2.start() #comenzando el hilo 2
 
+
+# sincronizando hilos
+t1.join()
+t2.join()
+
 end=time.time()
 
 print("El tiempo transcurrido es {} ".format(end-start))
