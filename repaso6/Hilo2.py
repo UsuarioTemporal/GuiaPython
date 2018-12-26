@@ -6,6 +6,7 @@ logging.basicConfig(lebel=logging.DEBUG,format='[%(levelname)s (%(threadName)-s)
 class Hilo2(Thread) :
     def __init__(self,nameThread,idPersona,data):
         Thread.__init__(self,name=nameThread,target=Hilo2.run)
+        # Thread.__init__(self,name=nameThread,target=__guardar,args=(self,idPersona,data))
         self.__nameThread=nameThread
         self.__idPersona=idPersona
         self.__data=data
