@@ -1,8 +1,7 @@
 from abc import ABCMeta , abstractmethod
 
 #interface
-class Figura(object):
-    __metaclass__=ABCMeta
+class Figura(metaclass=ABCMeta):
 
     @abstractmethod
     def area(self):pass
@@ -21,3 +20,7 @@ class Rectangulo(Figura):
     def perimetro(self):
         return self.__altura*2 + self.__ancho*2
 cuadrado=Rectangulo(45,4)
+
+print("El area es {}".format(cuadrado.area()))
+
+# pelota = Figura()
