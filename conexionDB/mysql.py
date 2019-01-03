@@ -6,6 +6,8 @@ print(db)
 
 
 
-cursor = bd.cursor()
+cursor = db.cursor()
 
-cursor.execute("SELECT * FROM usuarios")
+cursor.execute("SELECT VERSION()")
+version = cursor.fetchone()
+print(version)
