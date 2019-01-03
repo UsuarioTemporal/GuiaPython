@@ -69,3 +69,8 @@ Para trabajar con BD
 ````sh
     pip3.7 install PyMySQL
 ````
+
+Para desinstalar
+````sh
+    pip3.7 uninstall PyMySQL
+````
