@@ -63,3 +63,9 @@ Pip es el sistema que nos ayudara en el control de paquetes y modulos en python 
 ````sh
     python get-pip.py
 ````
+
+Para trabajar con BD
+
+````sh
+    pip3.7 install PyMySQL
+````
