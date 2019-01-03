@@ -1,12 +1,15 @@
 """
     TIPOS DE MÉTODO 
         MÉTODO DE INSTANCIA :
+            metodo comun y corriete al igual que otro lenguajes , solo puede ser accedido y se instacia la clase en la que se encuentre
 
         MÉTODO ESTÁTICO :
             Para crear un método estatico es necesario anteponer @staticmethod para asi indicarles a python,las caracteristicas mas comunes de un metodo estatico que al igual que java no necesita ser instaciada para poder usarse
 
         
         MÉTODO DE CLASE :
+            @classmethod , este metodo comparte caracteristicas con el método estático , dicha caracteristica es que este emtodo puede ser llamado sin crear una instancia de la clase
+            .La diferencia recae en la capacidad de acceder otros métodos y atributos de la clase.Sin embargo este tipo de metodo no tienen accesos a tributos de instacia
 """
 
 class Auto :
