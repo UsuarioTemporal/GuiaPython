@@ -13,6 +13,19 @@ cursor.execute("SELECT VERSION()")
 version = cursor.fetchone()
 print(version)
 
+# consultan descripcion
 cursor.execute("DESC usuarios")
 description = cursor.fetchone()
 print(description)
+
+
+# consultando registros
+cursor.execute("SELECT * FROM usuarios")
+consulta = cursor.fetchone()
+# print(consulta)
+
+# instarnado
+# cursor.execute("INSERT INTO usuarios(nombre_usuario,correo,dni_usuario) VALUES('thom','asdasdasderwewee','12345678')")
+
+db.commit()
+
