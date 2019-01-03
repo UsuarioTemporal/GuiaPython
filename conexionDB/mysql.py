@@ -1,5 +1,5 @@
-import mysql
+import pymysql
 
 # Mira mama, mas facil que java imposible
-db =mysql.connector("localhost", "root", "mysql","tienda_java")
+db =pymysql.connect("localhost", "root", "mysql","tienda_java")
 print(db)
