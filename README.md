@@ -53,3 +53,13 @@ https://bitbucket.org/josedurand/tallerplantilla
 
 
 ## PIP
+
+[DESCARGA](https://bootstrap.pypa.io/get-pip.py)<br>
+
+Pip es el sistema que nos ayudara en el control de paquetes y modulos en python , despues de descargarlo ejecutamos el siguiente comando en la terminal
+````sh
+    cd /c/ubicacion_archivo
+````
+````sh
+    python get-pip.py
+````
