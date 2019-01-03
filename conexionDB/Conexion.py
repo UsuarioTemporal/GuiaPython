@@ -1,8 +1,8 @@
 import pymysql
 
-class Conexion() :
+class Conexion(object) :
     def __init__(self,servidor,usuario,clave,bd):
-        self.db = pymysql.connect(servidor,usuario,clave,bd)
+        self.bd = pymysql.connect(servidor,usuario,clave,bd)
         self.cursor = self.bd.cursor()
         print("Conexion exitosa")
     
@@ -11,7 +11,7 @@ class Conexion() :
         return self.cursor
 
     def cerrarConexion(self):
-        self.db.close()
+        self.bd.close()
         print("Base de datos cerrada")
     
     def commit(self):

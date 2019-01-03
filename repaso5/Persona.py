@@ -3,9 +3,9 @@ class Persona():
         self.__nombre=nombre
     @property
     def nombre(self):
-         return self.__nombre
+        return self.__nombre
     @nombre.setter
     def nombre(self,value):
         self.__nombre=value
     def mostrarDatos(self):
-        print(self._-nombre)
+        print(self.__nombre)
