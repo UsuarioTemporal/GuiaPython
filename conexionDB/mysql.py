@@ -28,4 +28,10 @@ consulta = cursor.fetchone()
 # cursor.execute("INSERT INTO usuarios(nombre_usuario,correo,dni_usuario) VALUES('thom','asdasdasderwewee','12345678')")
 
 db.commit()
+cursor.execute("SELECT * FROM usuarios")
+datos = cursor.fetchall()
 
+for data in datos :
+    print(data[0])
+    print(data[1])
+    print(data[2])
