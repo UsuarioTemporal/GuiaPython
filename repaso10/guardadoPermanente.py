@@ -10,26 +10,27 @@ class Persona :
         return f"{self.nombre} {self.genero} {self.edad}"
 
 class ListaPersonas :
+    listaDePersonas=[]
     def __init__(self):
-        self.listaDePersonas = open("repaso10/ficheroExterno","ab+")
-        self.listaDePersonas.seek(0)
         self.personas=[]
-        try:
-            self.personas=pickle.load(self.listaDePersonas)
-        except Exception as ex:
-            pass
-        finally :
-            self.listaDePersonas.close()
-            del (self.listaDePersonas)
+        
     def addPersonas(self,p):
         self.personas.append(p)
 
     def guardarPermanente(self):
-        self.listaDePersonas=open("repaso10/ficheroExterno","wb")
-        pickle.dump(self.personas,self.listaDePersonas)
-        self.listaDePersonas.close()
-        del self.listaDePersonas
-    
+        listaDePersonas=open("repaso10/ficheroExterno","wb")
+        pickle.dump(self.personas,listaDePersonas)
+        listaDePersonas.close()
+        del listaDePersonas
+
+    @classmethod
+    def mostrarPermanente(cls):
+        cls.listaDePersonas=open("repaso10/ficheroExterno","rb")
+        cls.lista= pickle.load(cls.listaDePersonas)
+        cls.listaDePersonas.close()
+        del cls.listaDePersonas
+        
+
     def showPersonas(self):
         return [p.__str__() for p in self.personas]
 
@@ -44,3 +45,5 @@ lista.addPersonas(p3)
 
 print(lista.showPersonas())
 lista.guardarPermanente()
+
+ListaPersonas.mostrarPermanente()
