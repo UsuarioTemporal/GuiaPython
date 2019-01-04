@@ -3,7 +3,7 @@
 """
 import pickle
 listaNombres = ["Pedro","Ana","Maria","Isabel"]
-ficheroBinario = open("repaso9/listaNombre","wb")
+ficheroBinario = open("repaso9/listaNombre","wb") # write binary
 pickle.dump(listaNombres,ficheroBinario)
 ficheroBinario.close()
 del (ficheroBinario)
