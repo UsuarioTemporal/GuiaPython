@@ -23,6 +23,12 @@ class ListaPersonas :
             del (self.listaDePersonas)
     def addPersonas(self,p):
         self.personas.append(p)
+
+    def guardarPermanente(self):
+        self.listaDePersonas=open("repaso10/ficheroExterno","wb")
+        pickle.dump(self.personas,self.listaDePersonas)
+        self.listaDePersonas.close()
+        del self.listaDePersonas
     
     def showPersonas(self):
         return [p.__str__() for p in self.personas]
@@ -37,3 +43,4 @@ lista.addPersonas(p2)
 lista.addPersonas(p3)
 
 print(lista.showPersonas())
+lista.guardarPermanente()
