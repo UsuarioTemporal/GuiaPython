@@ -28,6 +28,7 @@ class ListaPersonas :
         cls.listaDePersonas=open("repaso10/ficheroExterno","rb")
         cls.lista= pickle.load(cls.listaDePersonas)
         cls.listaDePersonas.close()
+        print([p.__str__() for p in cls.lista])
         del cls.listaDePersonas
         
 
