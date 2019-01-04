@@ -1,4 +1,5 @@
 import pickle
+
 class Persona(): 
     def __init__(self,nombre):
         self.__nombre=nombre
@@ -10,12 +11,15 @@ class Persona():
         self.__nombre=value
     def mostrarDatos(self):
         print(self.__nombre)
-# ficheroBinario = open("repaso9/listaNombre","rb") # read binary
-ficheroPersonas = open("repaso9/lasPersonas","rb")
-# lists = pickle.load(ficheroBinario)
-listaPers = pickle.load(ficheroPersonas)
-# print(lists)
-print(listaPers)
 
-ficheroPersonas.close()
-# ficheroBinario.close()
+thom = Persona("Thom")
+carlos = Persona("Carlos")
+
+
+personas = [thom,carlos]
+
+fichero = open("repaso9/lasPersonas","wb")
+pickle.dump(personas,fichero)
+
+fichero.close()
+del (fichero)
