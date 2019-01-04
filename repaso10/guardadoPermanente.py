@@ -11,7 +11,16 @@ class Persona :
 
 class ListaPersonas :
     def __init__(self):
-        self.personas = []
+        self.listaDePersonas = open("repaso10/ficheroExterno","ab+")
+        self.listaDePersonas.seek(0)
+        self.personas=[]
+        try:
+            self.personas=pickle.load(self.listaDePersonas)
+        except Exception as ex:
+            pass
+        finally :
+            self.listaDePersonas.close()
+            del (self.listaDePersonas)
     def addPersonas(self,p):
         self.personas.append(p)
     
