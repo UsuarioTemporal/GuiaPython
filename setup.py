@@ -7,5 +7,5 @@ setup(
     author="Thom",
     author_email="thomtwd@gmail.com",
     url="https://github.com/UsuarioTemporal/RepasoPython",
-    package=["repaso5","package.operaciones"]
+    packages=["repaso4","repaso4"]
 )
