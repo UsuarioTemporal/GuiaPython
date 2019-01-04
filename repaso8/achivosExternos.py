@@ -4,5 +4,7 @@ archivo = open("repaso8/archivo.txt","r") #w , a , r
 
 frase = "Que pex\n"
 # archivo.write(frase)
-print(archivo.read())
+# print(archivo.read())
+lista = archivo.readlines()
+print(lista)
 archivo.close()
