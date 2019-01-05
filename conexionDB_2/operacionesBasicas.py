@@ -10,6 +10,8 @@ try:
     # cx.ejecutarQuery(sql)
     lista=cx.ejecutarQuery("SELECT * FROM usuarios").fetchall()
     print(lista)
+    for producto in lista :
+        print(producto)
     cx.commit()
 except Exception as ex:
     print(ex.__dict__,"Error")
