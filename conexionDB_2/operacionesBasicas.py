@@ -8,14 +8,16 @@ try:
     delete =""
     show =""
     # cx.ejecutarQuery(sql)
+    lista=cx.ejecutarQuery("SELECT * FROM usuarios").fetchall()
+    print(lista)
     cx.commit()
 except Exception as ex:
-    print(ex.__dict__)
+    print(ex.__dict__,"Error")
 finally :
     cx.cerrarConexion()
-variosProductos=[
-    ("Papa",2.5),
-    ("Pan",1.5),
-    ("Arroz",3.5)
-]
+# variosProductos=[
+#     ("Papa",2.5),
+#     ("Pan",1.5),
+#     ("Arroz",3.5)
+# ]
 # miCursor.executemany("INSERT INTO producto(nombre_producto,precio_producto) VALUES(?,?)",variosProductos)
