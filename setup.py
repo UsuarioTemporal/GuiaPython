@@ -1,13 +1,13 @@
 from setuptools import setup
 #paquetes distribuibles
 setup(
-    name="operaciones",
+    name="Conexion",
     version="1.0.0",
     description="paquete de repasos",
     author="Thom",
     author_email="thomtwd@gmail.com",
     url="https://github.com/UsuarioTemporal/RepasoPython",
-    packages=["nuevo_paquete"]
+    packages=["conexionDB"]
 )
 
 """

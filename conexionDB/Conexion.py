@@ -3,7 +3,7 @@ import pymysql
 class Conexion(object) :
     def __init__(self,servidor,usuario,clave,bd):
         self.bd = pymysql.connect(servidor,usuario,clave,bd)
-        self.cursor = self.bd.cursor()
+        self.cursor = self.bd.cursor() 
         print("Conexion exitosa")
     
     def ejecutarQuery(self,sql):

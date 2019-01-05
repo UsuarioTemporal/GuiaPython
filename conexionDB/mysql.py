@@ -7,7 +7,7 @@ print(db)
 
 # objeto cursor para consultar la version de MySQL
 
-cursor = db.cursor()
+cursor = db.cursor() 
 
 cursor.execute("SELECT VERSION()")
 version = cursor.fetchone()
