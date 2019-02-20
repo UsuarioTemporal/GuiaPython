@@ -8,4 +8,7 @@ class MyThread(Thread):
         print(f'{self.getName()} teminado')
 
 if __name__ =='__main__' :
-    pass
+    for x in range(11):
+        hilo = MyThread(name=f'Thread - {x}')
+        hilo.start()
+        time.sleep(1)
