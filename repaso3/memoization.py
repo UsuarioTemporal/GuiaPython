@@ -18,6 +18,6 @@ def fibo(num):
     return cache[num]
 start = time.time()
 # print(fib(34)) #ineficiente
-print(fibo(98)) #eficiente
+print(fibo(999)) #eficiente
 end= time.time()
 print("El tiempo en segundos de ejecucion es {} segundos".format(end-start))

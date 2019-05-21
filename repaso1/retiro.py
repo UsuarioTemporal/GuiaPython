@@ -6,8 +6,9 @@ class Cajero :
         self.dollarClass[0]=1
     def check(self):
         return self.password == '12345'
-    def distribute (dollar):
-        pass
+    def distribute (self,dollar):
+        for dollar in self.dollarClass :
+            pass
 
 cajero1 = Cajero('12345')
 if cajero1.check(): 

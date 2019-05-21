@@ -11,4 +11,4 @@ if __name__ =='__main__' :
     for x in range(11):
         hilo = MyThread(name=f'Thread - {x}')
         hilo.start()
-        time.sleep(1)
+        time.sleep(.5)

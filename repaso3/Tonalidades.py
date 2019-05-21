@@ -16,6 +16,6 @@ print('Se {} en {},cuando el {} la {} y entonces una {} {} {}'.format(
     sustantivo2[random.randint(0,4)],
     verbo2[random.randint(0,4)],
     sustantivo3[random.randint(0,4)],
-    sustantivo4[random.randint(0,4)],
+    sustantivo4[random.randint(0,3)],
     verbo3[random.randint(0,4)]
 ))

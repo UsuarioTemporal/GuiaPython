@@ -14,7 +14,7 @@ def fib(num):
     return fib(num-1) + fib(num-2)
 
 start =time.time()
-print(fib(100))
+print(fib(1000))
 end=time.time()
 print("El tiempo en segundos de ejecucion es {} segundos".format(end-start))
 
