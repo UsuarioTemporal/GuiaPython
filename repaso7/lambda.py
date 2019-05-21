@@ -17,9 +17,12 @@ print(full_name('thom ', ' roman '))
 
 studenties = [' thom roman',' fabrizio condori ','erick chavo',' niuton sumas',' cristian prro']
 
-help(studenties.sort)
+# help(studenties.sort)
 # numbers = [2,5,-9,0,1,68,-8]
 # print(numbers.sort())
 # print(numbers)
-# print(studenties.sort())
-# print(studenties)
+# help(map())
+studenties=list(map(lambda item:item.strip(),studenties))
+print(studenties.sort())
+# studenties.sort(key=lambda e:len(e))
+print(studenties)
