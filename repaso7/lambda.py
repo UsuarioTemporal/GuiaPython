@@ -28,3 +28,8 @@ studenties=list(map(lambda person:' '.join(person.split(' ')[::-1]),studenties))
 # studenties.sort(key=lambda name:name.split(' ')[-1].lower())
 studenties.sort(key = lambda person :person)
 print(studenties)
+
+# Escribiendo una funcion que hace funciones
+
+def buildFunction():
+    return None
