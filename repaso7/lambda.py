@@ -31,5 +31,9 @@ print(studenties)
 
 # Escribiendo una funcion que hace funciones
 
-def buildFunction():
-    return None
+def buildFunction(a,b,c):
+    return lambda x : a*x**2+b*x+c
+f = buildFunction(2,3,-5)
+print(f(5))
+print(f(4))
+print(f(-5))
