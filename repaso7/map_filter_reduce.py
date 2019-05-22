@@ -1,6 +1,6 @@
 import math
 import statistics
-
+from functools import reduce
 def area(radius):
     return math.pi*(radius**2)
 
@@ -39,7 +39,14 @@ print(newData)
 
 countries = ['','Peru','Argentina','','Brazil','','']
 
-newContries = list(filter(None,countries)) # Esto filtrará todos los valores que se tratan como falsos en una configración booleana
+newContries = list(filter(None,countries)) # Esto no filtrará todos los valores que se tratan como falsos en una configración booleana que son las cadenas vacias ,0 , listas disccionarios tuplas vacias , es decir se eliminaran todos los datos que se toman como falso
 # newContries = list(filter(lambda country :country is not '',countries))
 
 print(newContries)
+
+################
+
+data_2 = [1,2,3,4,5]
+
+var= reduce(lambda x,y:x+y,data_2)
+print(var)
