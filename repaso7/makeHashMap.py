@@ -6,10 +6,10 @@ data=[dic for dic in json.load(open('db.json'))]
 # print(data)
 
 def makeHash(users,key):
-    def analized(dic,person):
+    def analyzing(dic,person):
         dic[person[key]]=person
         return dic
-    return reduce(analized,users,{})
+    return reduce(analyzing,users,{})
 
 hashMap= makeHash(data,'id')
 print(hashMap)
